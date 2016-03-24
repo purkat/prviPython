@@ -1,7 +1,11 @@
-song = "Somewhere over the rainbow"
+input_file = open("besedilo.txt", "r")
+#some_text = input_file.read()
+#print some_text
+print input_file.readline()
+print "==============================="
+print input_file.readline()
 
-#song = song.replace("rainbow", "fence")
-print song
-
-print song.count("rainbow")
-print song.count("e")
+print "==============================="
+print len(input_file.readline())
+print "==============================="
+print input_file.readline()
