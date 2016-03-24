@@ -1,0 +1,4 @@
+To je testno besedilo.
+To je nova vrstica.
+
+Se ena :)
