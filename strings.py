@@ -1,10 +1,7 @@
 song = "Somewhere over the rainbow"
 
-needle = "o"
+#song = song.replace("rainbow", "fence")
+print song
 
-pos = song.find(needle)
-print pos
-pos = song.find(needle, pos + 1)
-print pos
-pos = song.find(needle, pos + 1)
-print pos
+print song.count("rainbow")
+print song.count("e")
