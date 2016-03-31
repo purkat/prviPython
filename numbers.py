@@ -23,6 +23,7 @@ print 22.0 / 7
 
 print "==============="
 
+#ostanek pri deljenju
 print 5 % 2
 
 
