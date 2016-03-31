@@ -1,4 +1,4 @@
-x = 5
+x = 5.01
 y = 30
 
 # sestevanje
@@ -16,6 +16,13 @@ print y - x
 print "==============="
 
 # deljenje
+print x / y
 print x / 2.0
 print float(x) / 2
+print 22.0 / 7
+
+print "==============="
+
+print 5 % 2
+
 
