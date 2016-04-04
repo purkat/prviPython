@@ -14,3 +14,12 @@ repka = {"Dragic": "branilec", "Slokar": "center", "Zupan": "center", "Blazic": 
 
 for igralec in repka:
     print igralec + ", " + repka[igralec]
+    if igralec == "Zupan":
+        break
+
+i = int(raw_input("Stevilo: "))
+while i > 3:
+    print i
+    if i == 7:
+        break
+    i -= 1 # i = (i - 1)
