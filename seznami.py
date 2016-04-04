@@ -1,12 +1,17 @@
-new_list = []
-print new_list
-new_list.append("first element")
-print new_list
-new_list.append("new element")
-print new_list
-my_var = "some variable"
-new_list.append(my_var)
-print new_list
-my_var = "aaaa"
-new_list.append(my_var)
-print new_list
+cars = ["renault", "audi", "bmw", "peugeot", "seat"]
+print cars
+print cars.index("bmw")
+print len(cars)
+cars.remove("audi")
+print cars
+print len(cars)
+
+cars1 = ["renault", "audi", "bmw", "audi", "peugeot", "seat"]
+print cars1.count("audi")
+cars1.remove("audi")
+print cars1.count("audi")
+
+if "audi" in cars1:
+    print("Audi is in the cars list")
+else:
+    print("Audi is NOT in the cars list")
