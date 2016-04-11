@@ -20,7 +20,7 @@ def testing_function_calculator():
 print testing_numbers_sum()
 print testing_function_calculator()
 
-import ugani_drzavo
+from ugani_drzavo import izpisi_gl_mesto, izpisi_drzavo, podatki
 
 def test_ugani_drzavo(vhod):
     mesta = vhod.keys()
@@ -30,4 +30,4 @@ def test_ugani_drzavo(vhod):
     for drzava in drzave:
         assert izpisi_drzavo(izpisi_gl_mesto(drzava)) == drzava
 
-test_ugani_drzavo(ugani_drzavo.podatki)
+test_ugani_drzavo(podatki)
